@@ -7,7 +7,7 @@ import com.fasterxml.jackson.annotation.JsonInclude.Include;
  * @author jelena.nikolic
  *
  */
-@JsonInclude(Include.NON_NULL)
+@JsonInclude(Include.NON_NULL)   //Nisam ukljucio
 public class UserDto {
 	
 	private Long id;
